@@ -1,52 +1,91 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="style.css">
-  <title>Module 3 Final project</title>
-</head>
-<body>
-  <section id="landing"> 
-    <nav>
-      <div class="row nav_row"> 
-        <div class="nav_logo">
-        <img class= "nav__Logo--img" src="assets/logo.2c489fc453a1783cbadacf914efa3df6.svg" alt="logo" />
-        <div class="nav_logo--title">Treact</div>
-      </div> 
-      </div> 
-      <div class="nav__links">
-        <a href="#" class="nav__link">About</a>
-        <a href="#" class="nav__link">Blog</a>
-        <a href="#" class="nav__link">Pricing</a> 
-        <a href="#" class="nav__link">Contact Us</a>
-        <a href="#" class="nav__link login">Login</a>
-        <a href="#" class="nav__link nav__Link--primary">Sign Up</a>
-      </div>
-      <button class="btn_menu" onclick="Openmenu()">
-        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="btn__menu--svg">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Module 3 Final project</title>
+  </head>
+  <body>
+    <section id="landing">
+      <nav>
+        <div class="row nav__row">
+          <div class="nav__logo">
+            <img
+              class="nav__logo--img"
+              src="assets/logo.2c489fc453a1783cbadacf914efa3df6.svg"
+              alt="logo"
+            />
+            <div class="nav__logo--title">Treact</div>
+          </div>
+          <div class="nav__links">
+            <a href="#" class="nav__link">About</a>
+            <a href="#" class="nav__link">Blog</a>
+            <a href="#" class="nav__link">Pricing</a>
+            <a href="#" class="nav__link">Contact Us</a>
+            <a href="#" class="nav__link login">Login</a>
+            <a href="#" class="nav__link nav__Link--primary">Sign Up</a>
+          </div>
+          <button class="btn__menu" onclick="Openmenu()">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              class="btn__menu--svg"
+            >
               <line x1="3" y1="12" x2="21" y2="12"></line>
               <line x1="3" y1="6" x2="21" y2="6"></line>
               <line x1="3" y1="18" x2="21" y2="18"></line>
             </svg>
-      </button> 
-    </nav>
-    <div> 
-      <button>  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="light___StyledCloseIcon-lj69nl-14 fASujC">
-            <line x1="18" y1="6" x2="6" y2="18"></line>
-            <line x1="6" y1="6" x2="18" y2="18"></line>
-          </svg>
-        </button>
-        <div>
-          <a href="#about" class= "Menu__link" onclick="closemenu()">About</a>
-          <a href="#blog" class= "Menu__link" onclick="closemenu()">Blog</a>
-          <a href="#pricing"class= "Menu__link" onclick="closemenu()">Pricing</a>
-          <a href="#contact__us"class= "Menu__link" onclick="closemenu()">Contact us</a>
-          <a href="#login" class= "Menu__link" onclick="closemenu()">Login</a>
-          <a href="#signup" class= "Menu__link menu__link--primary" onclick="closemenu()">Sign up</a>
+          </button>
         </div>
-    </div>
-  </section>
-
-</body>
+      </nav>
+      <div>
+        <div class="menu">
+          <button>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              class="light___StyledCloseIcon-lj69nl-14 fASujC"
+            >
+              <line x1="18" y1="6" x2="6" y2="18"></line>
+              <line x1="6" y1="6" x2="18" y2="18"></line>
+            </svg>
+          </button>
+          <a href="#about" class="menu__link" onclick="closemenu()">About</a>
+          <a href="#blog" class="menu__link" onclick="closemenu()">Blog</a>
+          <a href="#pricing" class="menu__link" onclick="closemenu()"
+            >Pricing</a
+          >
+          <a href="#contact__us" class="menu__link" onclick="closemenu()"
+            >Contact us</a
+          >
+          <a href="#login" class="menu__link" onclick="closemenu()">Login</a>
+          <a
+            href="#signup"
+            class="menu__link menu__link--primary"
+            onclick="closemenu()"
+            >Sign up</a
+          >
+        </div>
+      </div>
+      <header>
+        <h1>"Beautifully React Template" for you</h1>
+        
+      </header>
+    </section>
+  </body>
 </html>
