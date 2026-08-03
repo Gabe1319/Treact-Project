@@ -540,7 +540,7 @@ header {
 }
 
 .steps__description,
-.step__img-wrapper {
+.steps__img-wrapper {
   width: 50%;
 }
 
@@ -567,7 +567,7 @@ line-height: 1;}
   display: flex;
   flex-direction: column;
   margin-left: 24px;
-  max-width: 320px;
+  
 }
 
 .step__title {
