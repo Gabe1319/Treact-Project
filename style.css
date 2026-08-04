@@ -1645,11 +1645,17 @@ footer {
   }
   .start__container {
     padding: 80px 0;
+    
+  }
+
+  .start__buttons {
+    flex-direction: column;
   }
 
   .start__button:nth-child(1){margin-right: 0;}
 
-  .start__button {padding: 12px 24px;
+  .start__button {
+    padding: 12px 24px;
   font-size: 14px;}
 
   .start__button:hover:nth-child(2) {
