@@ -1182,6 +1182,7 @@ footer {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  width: 100%;
 }
 
 .footer__logo {
@@ -1194,7 +1195,7 @@ footer {
   width: 32px;
 }
 
-.footer__logo--txt {
+.footer__logo--text {
   font-size: 20px;
   color: #f7fafc;
   font-weight: 900;
@@ -1255,3 +1256,4 @@ footer {
   z-index: 1;
   opacity: 0.5;
 }
+
